@@ -64,15 +64,15 @@ body{
 }
 
 #radio2:checked ~ .second{
-    margin-left: -20px;
+    margin-left: -800px;
 }
 
-#radio3:checked ~ .thrid{
-    margin-left: -40px;
+#radio3:checked ~ .third{
+    margin-left: -1600px;
 }
 
-#radio4:checked ~ .fouth{
-    margin-left: -60px;
+#radio4:checked ~ .fourth{
+    margin-left: -2400px;
 }
 
 .navigation-auto{
@@ -88,6 +88,7 @@ body{
     padding: 5px;
     border-radius: 9px;
     transition: 1s;
+    display: none;
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
